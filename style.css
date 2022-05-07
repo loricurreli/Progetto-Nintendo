@@ -141,3 +141,52 @@ p {
     font-size: 12px;
     margin-left: 10px;
 }
+
+/* Sezione di CSS per ONLINE STORE -- Autore: Lorenzo Curreli */
+
+article#origin
+{
+    margin-right: 20px;
+    margin-left: 300px;
+    width: 80%;
+    margin-bottom: 50px;
+}
+h2
+{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 28px;
+}
+p span
+{
+    margin-top: 45px;
+    
+    float:left;
+
+}
+p span:first-child
+{
+    width: 75%;
+    font-size: 20px;
+    font-weight: bold;
+}
+span#shopping
+{
+    
+    background-color: red;
+    padding: 10px;
+    border-radius: 8px;
+}
+span#shopping:hover
+{
+    
+    padding: 15px;
+    background-color: rgb(148, 2, 2);
+}
+span#shopping a
+{
+    color: white;
+    text-decoration: none;
+}
+
+/* Sezione di CSS per ONLINE STORE -- Autore: Lorenzo Curreli */
