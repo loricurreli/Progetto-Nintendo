@@ -3,7 +3,8 @@ Progetto Nintendo TEAM 4
 Branch nintendo: questo branch contiene lo stato attuale della homepage, compreso il css e la cartella delle immagini.
 
 Ogni volta che un collaboratore effettua la pull request va ad aggiungere su questo branch le modifiche presenti sul proprio branch sul quale ha lavorato.
-Spostarsi su branch nintendo per vedere la versione attuale della homepage
+
+Ogni volta che un collaboratore scarica la repository, trova su questo branch lo stato attuale della homepage.
 
 Collaboratori
 -Elio Castellini
