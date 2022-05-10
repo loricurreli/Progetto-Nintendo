@@ -1,1 +1,155 @@
 
+/* Sezione CSS per Characters -- Autore: Massimo Caser*/
+
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.align-items-center {
+    align-items: center;
+}
+
+.logo-nintendo {
+    width: 105px;
+}
+
+.search {
+    width: 280px;
+    padding: 5px;
+    font-size: 14px;
+    font-weight: 400;
+    border-style: none;
+}
+
+.search:hover::placeholder {
+    color: rgb(230, 0, 18);
+}
+
+.search, 
+.all-categories:focus {
+    outline: none;
+}
+
+.all-categories {
+    border-style: none;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.all-categories option {
+    color: #000;
+}
+
+
+.ul-header {
+    list-style-type: none;
+    margin-left: 400px;
+}
+
+.ul-header li:not(:last-child)  { 
+    margin-right: 20px;
+    font-size: 14px;
+}
+
+.all-categories:hover,
+.ul-header li:hover,
+.linea:hover,
+ nav a:hover {
+    color: rgb(230, 0, 18);
+}
+
+.linea {
+    border-bottom: 1px solid;
+    margin-left: 18px;
+}
+
+.separate {
+    position: absolute;
+    top: 50px;
+    margin-left: 104px;
+    width: 100%;
+    height: 0.2px;
+}
+
+svg {
+    margin-right: 7px;
+    align-items: center;
+}
+
+svg:hover {
+    fill: red;
+}
+
+.nintendo-sport {
+    width: 100%;
+}
+
+nav {
+    margin-left: 230px;
+    padding: 10px;
+}
+
+nav a {
+    
+    margin-right: 65px;
+    font-weight: 700;
+}
+
+.sect-buynow {
+    padding: 24px;
+    margin-bottom: 30px;
+}
+
+h1 {
+    margin-right: 40px;
+    font-size: 28px;
+}
+
+.Buynow {
+    padding: 10px;
+    height: 50px;
+    width: 120px;
+    font-size: 17px;
+    color: white;
+    background-color: rgb(230, 0, 18);
+    border-style: none;
+    font-weight: 700;
+    border-radius: 6%;
+}
+
+.separate-2 {
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.esrb-logo {
+    width: 45px;
+    margin-left: 390px;
+}
+
+p {
+    font-size: 12px;
+    margin-left: 10px;
+}
+
+
+
+
+
+
+/* Fine sezione CSS per Characters -- Autore: Massimo Caser*/
+
