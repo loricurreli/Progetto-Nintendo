@@ -1,3 +1,5 @@
+* Sezione CSS per Navbar -- Autore: Massimo Caser*/
+
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap');
 
 * {
@@ -142,7 +144,20 @@ p {
     margin-left: 10px;
 }
 
-/*sezione di elio */
+
+
+
+
+* Fine sezione CSS per Navbar -- Autore: Massimo Caser*/
+
+
+
+
+
+
+
+
+/* Sezione CSS per Featured -- Autore: Elio Castellini */
 
 
 .section{
@@ -208,3 +223,5 @@ span  {
     color: black;
     
 }
+
+/* Sezione CSS per Featured -- Autore: Elio Castellini */
