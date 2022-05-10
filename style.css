@@ -1,3 +1,5 @@
+/* Sezione di CSS per Navbar -- Autore: Massimo Caser */
+
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap');
 
 * {
@@ -142,6 +144,8 @@ p {
     margin-left: 10px;
 }
 
+/* Fine sezione di CSS per Navbar -- Autore: Massimo Caser */
+
 /* Sezione di CSS per ONLINE STORE -- Autore: Lorenzo Curreli */
 
 article#origin
@@ -189,4 +193,4 @@ span#shopping a
     text-decoration: none;
 }
 
-/* Sezione di CSS per ONLINE STORE -- Autore: Lorenzo Curreli */
+/* Fine sezione di CSS per ONLINE STORE -- Autore: Lorenzo Curreli */
