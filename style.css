@@ -328,16 +328,24 @@ p span:first-child
 }
 span#shopping
 {
-    
-    background-color: red;
     padding: 10px;
-    border-radius: 8px;
+    height: 50px;
+    width: 140px;
+    font-size: 17px;
+    color: white;
+    background-color: rgb(230, 0, 18);
+    border-style: none;
+    font-weight: 700;
+    border-radius: 7%;
+    text-align: center;
 }
+
 span#shopping:hover
 {
     
-    padding: 15px;
+    padding: 12px;
     background-color: rgb(148, 2, 2);
+    width: 140px;
 }
 span#shopping a
 {
@@ -348,6 +356,52 @@ span#shopping a
 
 
 /* Sezione di CSS per ONLINE STORE -- Autore: Lorenzo Curreli */
+
+
+
+
+
+
+
+/*Inizio Sezione di CSS per GAMING SYSTEMS -- Autore: Vincenzo Buonomo */
+
+.gsection
+{
+    margin: 75px;
+}
+
+h1
+{
+    color: #484853;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    line-height: 1.35;
+}
+
+.gamingsystems
+{
+    display: block;
+    min-height: 1px;
+    width: 100%;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.imgamingsystems
+{
+    align-content: center;
+    width: 100%;
+    height: auto;
+}
+
+/*Fine Sezione di CSS per GAMING SYSTEMS -- Autore: Vincenzo Buonomo */
+
+
+
+
 
 
 

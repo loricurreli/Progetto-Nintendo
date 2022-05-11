@@ -1,3 +1,8 @@
+HEAD
+Progetto Nintendo TEAM 4 
+SEZIONE: GAMING SYSTEMS --- AUTORE: VINCENZO BUONOMO
+
+
 Progetto Nintendo TEAM 4
 
 Branch nintendo: questo branch contiene lo stato attuale della homepage, compreso il css e la cartella delle immagini.
@@ -17,3 +22,4 @@ Collaboratori
 Obiettivo: Realizzazione della homepage del sito nintendo.com
 
 
+ nintendo
