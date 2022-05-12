@@ -300,59 +300,98 @@ p {
 
 /* Sezione di CSS per ONLINE STORE -- Autore: Lorenzo Curreli */
 
-article#origin
-{
-    margin-right: 20px;
-    margin-left: 300px;
-    width: 80%;
-    margin-bottom: 50px;
-}
-h2
-{
-    margin-top: 30px;
-    margin-bottom: 30px;
-    font-size: 28px;
-}
-p span
-{
-    margin-top: 45px;
-    
-    float:left;
-
-}
-p span:first-child
-{
-    width: 75%;
-    font-size: 20px;
-    font-weight: bold;
-}
-span#shopping
-{
-    padding: 10px;
-    height: 50px;
-    width: 140px;
-    font-size: 17px;
-    color: white;
-    background-color: rgb(230, 0, 18);
-    border-style: none;
-    font-weight: 700;
-    border-radius: 7%;
+div#store{
     text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1114px;
 }
 
-span#shopping:hover
-{
-    
-    padding: 12px;
-    background-color: rgb(148, 2, 2);
-    width: 140px;
+div#store a picture img{
+    width: 100%;
 }
-span#shopping a
-{
+
+div#store h1{
+    font-weight: bold;
+    text-align: left;
+    padding-left: 0px;
+    font-size: 28px;
+    width:100%;
+    margin-left: 0;
+}
+
+section#online_store a:hover{
+    cursor:pointer;
+}
+
+div#shop_description p{
+    font-size: 22px;
+    font-weight: bold;
+    text-align: left;
+    width: 80%;
+    margin-top: 50px;
+    float:left;
+}
+
+div#shop_description p#shop{
+    box-sizing: border-box;
+    background-color: red;
     color: white;
-    text-decoration: none;
+    width: 15%;
+    text-align: center;
+    font-size: 18px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    border-radius: 4px;
+    margin-left: 5%;    
 }
 
+p#shop:hover{    
+    width: 16%;
+    margin-left: 4%;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    background-color: rgb(155, 12, 12);
+}
+
+/* Media queries per regolare sezione store */
+
+@media screen and (max-width: 1220px) {
+   
+    div#store{
+        text-align: center;
+        margin-left: 0;
+        margin-right: 0;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 1025px) {
+
+    div#shop_description p#shop{        
+        width: 100%;
+        text-align: center;
+        font-size: 18px;
+        padding-top: 7px;
+        padding-bottom: 7px;
+        border-radius: 4px;
+        margin-left: 0;      
+    }
+
+    div#shop_description p{  
+        width: 100%;
+        margin-top: 50px;    
+    }
+    
+    p#shop:hover{   
+        width: 100%;
+        margin-left: 0;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        background-color: rgb(155, 12, 12);
+    }
+    
+}
 
 
 /* Sezione di CSS per ONLINE STORE -- Autore: Lorenzo Curreli */
