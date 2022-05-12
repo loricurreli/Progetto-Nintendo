@@ -198,25 +198,29 @@
 
 
     
-     <!--Creo un article con id per settare poi le dimensioni sul css-->
-    <article id="origin">
-
-      <h2>Online store</h2>
-      <a href="https://www.nintendo.com/store/"><img src="assets/origin.png" alt="Immagine di nintendo" height="150" width="1250"></a>
-      
-      <p>
-          <span>
-              Shop games, exclusive Nintendo merchandise, and more! Plus, get free shipping on orders $50 and over.
-          </span>
-          <span id="shopping"> 
-              <a href="https://www.nintendo.com/store/">Start shopping</a>
-          </span>
-      
-          
-      </p> 
-  </article>
-  </br></br></br>
-
+    <section id="online_store">
+        <div id="store">
+            <h1>Online Store</h1>
+            <a href="https://www.nintendo.com/store/">
+                <picture>
+                    <source media="(max-width:615px)" srcset="origin615.png">
+                    <source media="(max-width:830px)" srcset="origin830.png">
+                    <source media="(max-width:1025px)" srcset="origin1025.png">
+                    <img src="origin.png">
+                    
+                  </picture>
+            </a>
+            <div id="shop_description">
+                <p> Shop games, exclusive Nintendo merchandise, and more! Plus, get free shipping on orders $50 and over. </p>
+                <a href="https://www.nintendo.com/store/">
+                    <p id="shop"> Start shopping</p>
+                </a>
+            </div>
+            
+        </div>
+        
+    </section>
+    <hr>
   <!--Fine Sessione Online Store -- Autore: Lorenzo Curreli-->
 
 
