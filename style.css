@@ -300,6 +300,12 @@ p {
 
 /* Sezione di CSS per ONLINE STORE -- Autore: Lorenzo Curreli */
 
+section#online_store{
+    padding-top: 30px;
+    height: 550px;
+}
+
+
 div#store{
     text-align: center;
     margin-left: auto;
@@ -368,6 +374,11 @@ p#shop:hover{
 
 @media screen and (max-width: 1025px) {
 
+    section#online_store{
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+    
     div#shop_description p#shop{        
         width: 100%;
         text-align: center;
