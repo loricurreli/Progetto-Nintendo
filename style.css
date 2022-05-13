@@ -463,11 +463,7 @@ footer {
     justify-self: center;
 }
 
-a:-webkit-any-link {
-    color: -webkit-link;
-    cursor: pointer;
-    text-decoration: underline;
-}
+
 
 .svg-icons {
     color: rgb(255, 255, 255);
