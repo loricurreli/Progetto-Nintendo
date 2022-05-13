@@ -816,6 +816,7 @@ span  {
 .small-article img {
     width: 262px;
 }
+
 .big-article p,
 .small-article p{
     margin: 0;
@@ -829,6 +830,7 @@ span  {
     padding-bottom: 1px;
     max-width: fit-content;
 }
+
 .big-article:hover img, 
 .small-article:hover img {
     opacity: .7;
@@ -845,11 +847,12 @@ span  {
 
 .all-articles-btn {
     background-color: red;
+    border-radius: 5px;
     color: white;
     width: 252px;
     height: 48px;
-    transition: 0.7s;
-    transition-timing-function: cubic-bezier(0.5, 0.8, 1.0, 1.0);
+    transition: 0.3s;
+    transition-timing-function: cubic-bezier(0.6, 1.0, 0.8);
     text-decoration: none;
     font-size: larger;
     grid-area: button;
@@ -860,9 +863,10 @@ span  {
 }
 
 .all-articles-btn:hover {
-    width: 270px;
+    width: 262px;
     height: 55px;
     padding-top: 15px;
+    background-color: darkred;
 }
 
 
