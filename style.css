@@ -734,7 +734,7 @@ h1
 
 
 
-a:hover {
+.Box-features a:hover {
     color: red;
 }
 
@@ -863,4 +863,4 @@ span  {
 
 
 
-/* Sezione CSS per News -- Autore: Laurent Gagné */
+/* Fine Sezione CSS per News -- Autore: Laurent Gagné */
