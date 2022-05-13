@@ -1,6 +1,3 @@
-HEAD
-Progetto Nintendo TEAM 4 
-SEZIONE: GAMING SYSTEMS --- AUTORE: VINCENZO BUONOMO
 
 
 Progetto Nintendo TEAM 4
@@ -21,5 +18,3 @@ Collaboratori
 
 Obiettivo: Realizzazione della homepage del sito nintendo.com
 
-
- nintendo
