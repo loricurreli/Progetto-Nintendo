@@ -339,7 +339,8 @@ div#shop_description p{
     float:left;
 }
 
-div#shop_description p#shop{
+a input{
+    margin-top: 50px; 
     box-sizing: border-box;
     background-color: red;
     color: white;
@@ -352,7 +353,8 @@ div#shop_description p#shop{
     margin-left: 5%;    
 }
 
-p#shop:hover{    
+a input:hover{   
+    cursor: pointer;
     width: 16%;
     margin-left: 4%;
     padding-top: 12px;
@@ -379,7 +381,8 @@ p#shop:hover{
         margin-right: 5px;
     }
     
-    div#shop_description p#shop{        
+    a input{     
+        margin-top: 30px;    
         width: 100%;
         text-align: center;
         font-size: 18px;
@@ -394,7 +397,8 @@ p#shop:hover{
         margin-top: 50px;    
     }
     
-    p#shop:hover{   
+    a input:hover{  
+        cursor: pointer;
         width: 100%;
         margin-left: 0;
         padding-top: 15px;
