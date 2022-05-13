@@ -413,15 +413,67 @@ a input:hover{
     }
     
 }
-
-
 /* Sezione di CSS per ONLINE STORE -- Autore: Lorenzo Curreli */
 
+/* Inizio Sezione footer -- Autore: Marco Spicuzza */
 
+footer {
+    display: block;
+}
 
+.brandbar {
+    background-color: rgb(230, 0, 18);
+    padding: 2.25rem 1rem;
+    color: rgb(255, 255, 255);
+    display: grid;
+    place-items: center end;
+    -webkit-box-align: center;
+}
 
+@media (min-width: 768px) {
+    .page-container {
+        width: 100%;
+        justify-items: end;
+        grid-template-columns: auto 58px 58px 58px 58px;
+    }
+}
 
+.page-container {
+    color: rgb(255, 255, 255);
+    display: grid;
+    place-items: center;
+    -webkit-box-align: center;
+    gap: 2rem;
+    max-width: 90rem;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    grid-template-columns: auto 200px 200px 200px 200px;
+}
 
+@media (min-width: 768px) {
+    .page-container:first-child {
+        justify-self: start;
+        grid-column: span 1 / auto;
+    }
+}
+
+.page-container:first-child {
+    grid-column: span 4 / auto;
+    justify-self: center;
+}
+
+a:-webkit-any-link {
+    color: -webkit-link;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.svg-icons {
+    color: rgb(255, 255, 255);
+}
+
+/* Fine Sezione footer -- Autore: Marco Spicuzza */
 
 /*Inizio Sezione di CSS per GAMING SYSTEMS -- Autore: Vincenzo Buonomo */
 
