@@ -43,6 +43,7 @@ body {
     font-size: 14px;
     font-weight: 400;
     border-style: none;
+    cursor: pointer;
 }
 
 .search:hover::placeholder {
@@ -58,6 +59,7 @@ body {
     border-style: none;
     font-size: 14px;
     font-weight: 700;
+    cursor: pointer;
 }
 
 .all-categories option {
@@ -68,6 +70,7 @@ body {
 .ul-header {
     list-style-type: none;
     margin-right: 15px;
+    cursor: pointer;
     
 }
 
@@ -89,6 +92,11 @@ body {
 .linea {
     border-bottom: 1px solid;
     margin-left: 18px;
+    cursor: pointer;
+}
+
+.lente {
+    cursor: pointer;
 }
 
 .separate {
@@ -145,6 +153,16 @@ nav a {
     border-radius: 6%;
 }
 
+.Buynow:hover {
+    cursor: pointer;
+    width: 130px;
+    height: 55px;
+    margin-left: 0;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    background-color: rgb(155, 12, 12);
+}
+
 .separate-2 {
     margin-top: 40px
 }
@@ -166,9 +184,89 @@ nav a {
 }
 
 .cursore {
-    cursor: pointer;
+    cursor: pointer
 }
 
+@media  screen and (max-width: 768px) {
+    .container-1 {
+        display: flex;
+        flex-direction: column;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .container-nav {
+        display: flex;
+        flex-direction: column;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .logo-nintendo {
+        width: 133px;
+    }
+
+    .sect-buynow {
+        display: block;
+    }
+
+    .sect-buynow h1 {
+        font-size: 18px;
+        text-align: center;
+    }
+
+    .link-buynow {
+        display: flex;
+        justify-content: center;
+        text-decoration: none;
+
+    }
+
+    .Buynow {
+        padding: 10px;
+        height: 55px;
+        width: 330px;
+        font-size: 17px;
+        color: white;
+        background-color: rgb(230, 0, 18);
+        border-style: none;
+        font-weight: 700;
+        border-radius: 6%;
+    }
+
+    .Buynow:hover {
+        cursor: pointer;
+        width: 340px;
+        height: 56px;
+        margin-left: 0;
+        padding-top: 12px;
+        padding-bottom: 12px;
+        background-color: rgb(155, 12, 12);
+    }
+
+    .container-esrb {
+        margin-top: 1rem;
+    }
+
+    .scritta-mild-violence {
+        display: flex;
+        width: 280px;
+    }
+
+    .separate {
+        position: absolute;
+        top: 50px;
+        margin-left: 104px;
+        width: auto;
+        height: 0.2px;
+    }
+
+    .separate-2 {
+        margin-top: 110px;
+        margin-left: 1rem;
+    }
+
+}
 
 
 
