@@ -372,6 +372,12 @@ a input:hover{
         margin-right: 0;
         width: 100%;
     }
+    
+    section#online_store{
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+    
 }
 
 @media screen and (max-width: 1025px) {
