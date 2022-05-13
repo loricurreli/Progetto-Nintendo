@@ -478,14 +478,15 @@ span  {
 
 /* Sezione CSS per News -- Autore: Laurent Gagné */
 .news-container {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-areas: 
-            "title title"
-            "big-article big-article"
-            "small-article small-article"
-            "button button";
     
+    display: grid;
+    grid-template-columns: 50px 1144px 50px;
+    grid-template-areas: 
+            ". title ."
+            ". big-article ."
+            ". small-article ."
+            ". . .";
+    row-gap: 20px;
 
 }
 
@@ -498,7 +499,8 @@ span  {
     grid-template-columns: 50px 1fr 1fr 50px;
     grid-template-areas: " . bg-art1 bg-art2 . ";
     justify-items: center;
-    grid-column-gap: 20px;
+    gap: 2rem;
+
 }
 .bg-art1 {
     grid-area: bg-art1;
@@ -509,18 +511,21 @@ span  {
 .big-article {
     max-width: 556px;
     max-height: 576px;
+    
 }
 .big-article img{
     width: 556px;
 }
+
 .small-article-container {
     grid-area: small-article;
     display: grid;
     grid-template-columns: 50px 1fr 1fr 1fr 1fr 50px;
-    grid-template-areas: ". sml-art1 sml-art2 sml-art3 sml-art4 .";
+    grid-template-areas: 
+        ". sml-art1 sml-art2 sml-art3 sml-art4 ."
+        ". button . . . .";
     justify-items: space-around;
-    padding-top: 30px;
-    margin-left: 50px;
+    gap: 2rem;
 }
 .sml-art1 {
     grid-area: sml-art1;
@@ -541,12 +546,18 @@ span  {
 .small-article img {
     width: 262px;
 }
+.big-article p,
+.small-article p{
+    margin: 0;
+    padding: 0;
+}
 
 .read-btn {
     color: red;
     text-decoration: none;
     border-bottom: 2px solid red;
-    padding-bottom: 3px;
+    padding-bottom: 1px;
+    max-width: fit-content;
 }
 .big-article:hover img, 
 .small-article:hover img {
@@ -570,10 +581,8 @@ span  {
     transition: 2s;
     text-decoration: none;
     font-size: larger;
-    grid-row: 4;
-    grid-column: 1;
-    margin-left: 100px;
-    margin-top: 50px;
+    grid-area: button;
+    text-align: center;
 }
 
 .all-articles-btn:hover {
