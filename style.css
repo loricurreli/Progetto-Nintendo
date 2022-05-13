@@ -166,7 +166,7 @@ nav a {
 }
 
 .cursore {
-    cursor: context-menu
+    cursor: pointer;
 }
 
 
