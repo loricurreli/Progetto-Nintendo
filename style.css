@@ -15,17 +15,27 @@ body {
     overflow-x: hidden;
 }
 
+
 .d-flex {
     display: flex;
+    
+    
 }
 
 .align-items-center {
-    align-items: center;
+    align-items:center;
 }
+
+.container-1 {
+    justify-content: space-between;
+
+}
+
 
 .logo-nintendo {
     width: 105px;
 }
+
 
 .search {
     width: 280px;
@@ -57,12 +67,16 @@ body {
 
 .ul-header {
     list-style-type: none;
-    margin-left: 400px;
+    margin-right: 15px;
+    
+}
+
+.ul-header li {
+    font-size: 14px;
 }
 
 .ul-header li:not(:last-child)  { 
     margin-right: 20px;
-    font-size: 14px;
 }
 
 .all-categories:hover,
@@ -114,8 +128,8 @@ nav a {
     margin-bottom: 30px;
 }
 
-h1 {
-    margin-right: 40px;
+.sect-buynow h1 {
+    margin-right: 25px;
     font-size: 28px;
 }
 
@@ -132,19 +146,25 @@ h1 {
 }
 
 .separate-2 {
-    margin-left: 25px;
-    margin-right: 25px;
+    margin-top: 40px
+}
+
+.container-esrb {
+    position: absolute;
+    right: 30px;
 }
 
 .esrb-logo {
     width: 45px;
-    margin-left: 390px;
+    margin-left: 400px;
+    
 }
 
 p {
     font-size: 12px;
     margin-left: 10px;
 }
+
 
 
 
@@ -181,23 +201,22 @@ p {
 }
 
 .personaggi {
-    margin-top: 40px;
-    margin-left: 110px;
     font-size: 28px;
 }
 
-.characters-h2 h2 {
+.characters h2 {
     font-size: 21px;
-    margin-left: 110px;
-    margin-right: 45px;
-    
+        
 }
 
-.characters-h2 h2 + h2 + h2 {
-    margin-left: 32px;
-    margin-right: 82px;
+.mario-top {
+    margin-top: 10px;
 }
 
+.next-mario{
+    margin-left: 15px;
+    margin-top: 10px;
+}
 
 .card {
     width: 275px;
@@ -221,7 +240,7 @@ p {
     overflow: hidden;
     z-index: 1;
     margin-left: 15px;
-    margin-top: 18px;
+    margin-top: 77px;
     cursor: pointer;
 }
 
@@ -234,7 +253,7 @@ p {
     overflow: hidden;
     z-index: 1;
     margin-left: 15px;
-    margin-top: 18px;
+    margin-top: 77px;
     cursor: pointer;
 }
 
@@ -246,16 +265,17 @@ p {
     overflow: hidden;
     z-index: 1;
     margin-left: 15px;
-    margin-top: 18px;
+    margin-top: 77px;
     cursor: pointer;
 }
 
 .img_card,
 .img_card-2,
 .img_card-3,
-.img_card-4  { 
+.img_card-4  {
+    
     width: 100%;
-    transition: all 200ms ease-in-out;
+    transition: all 0.3s ease-in-out;
 }
 
 .card:hover .img_card,
@@ -263,7 +283,9 @@ p {
 .card-3:hover .img_card-3,
 .card-4:hover .img_card-4 {
     transform: scale(1.15);
+    filter:blur(0.7);
 }
+
 
 
 
@@ -278,54 +300,122 @@ p {
 
 /* Sezione di CSS per ONLINE STORE -- Autore: Lorenzo Curreli */
 
-article#origin
-{
-    margin-right: 20px;
-    margin-left: 300px;
-    width: 80%;
-    margin-bottom: 50px;
+section#online_store{
+    padding-top: 30px;
+    height: 550px;
 }
-h2
-{
-    margin-top: 30px;
-    margin-bottom: 30px;
-    font-size: 28px;
-}
-p span
-{
-    margin-top: 45px;
-    
-    float:left;
 
+
+div#store{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1114px;
 }
-p span:first-child
-{
-    width: 75%;
-    font-size: 20px;
+
+div#store a picture img{
+    width: 100%;
+}
+
+div#store h1{
     font-weight: bold;
+    text-align: left;
+    padding-left: 0px;
+    font-size: 28px;
+    width:100%;
+    margin-left: 0;
 }
-span#shopping
-{
-    
+
+section#online_store a:hover{
+    cursor:pointer;
+}
+
+div#shop_description p{
+    font-size: 22px;
+    font-weight: bold;
+    text-align: left;
+    width: 80%;
+    margin-top: 50px;
+    float:left;
+}
+
+a input{
+    margin-top: 50px; 
+    box-sizing: border-box;
     background-color: red;
-    padding: 10px;
-    border-radius: 8px;
-}
-span#shopping:hover
-{
-    
-    padding: 15px;
-    background-color: rgb(148, 2, 2);
-}
-span#shopping a
-{
     color: white;
-    text-decoration: none;
+    width: 15%;
+    text-align: center;
+    font-size: 18px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    border-radius: 4px;
+    margin-left: 5%;    
 }
 
+a input:hover{   
+    cursor: pointer;
+    width: 16%;
+    margin-left: 4%;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    background-color: rgb(155, 12, 12);
+}
 
+/* Media queries per regolare sezione store */
 
+@media screen and (max-width: 1220px) {
+   
+    div#store{
+        text-align: center;
+        margin-left: 0;
+        margin-right: 0;
+        width: 100%;
+    }
+    
+    section#online_store{
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+    
+}
+
+@media screen and (max-width: 1025px) {
+
+    section#online_store{
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+    
+    a input{     
+        margin-top: 30px;    
+        width: 100%;
+        text-align: center;
+        font-size: 18px;
+        padding-top: 7px;
+        padding-bottom: 7px;
+        border-radius: 4px;
+        margin-left: 0;      
+    }
+
+    div#shop_description p{  
+        width: 100%;
+        margin-top: 50px;    
+    }
+    
+    a input:hover{  
+        cursor: pointer;
+        width: 100%;
+        margin-left: 0;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        background-color: rgb(155, 12, 12);
+    }
+    
+}
 /* Sezione di CSS per ONLINE STORE -- Autore: Lorenzo Curreli */
+
+/* Inizio Sezione footer -- Autore: Marco Spicuzza */
 
 footer {
     display: block;
@@ -382,3 +472,118 @@ a:-webkit-any-link {
 .svg-icons {
     color: rgb(255, 255, 255);
 }
+
+/* Fine Sezione footer -- Autore: Marco Spicuzza */
+
+/*Inizio Sezione di CSS per GAMING SYSTEMS -- Autore: Vincenzo Buonomo */
+
+.gsection
+{
+    margin: 75px;
+}
+
+h1
+{
+    color: #484853;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    line-height: 1.35;
+}
+
+.gamingsystems
+{
+    display: block;
+    min-height: 1px;
+    width: 100%;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.imgamingsystems
+{
+    align-content: center;
+    width: 100%;
+    height: auto;
+}
+
+/*Fine Sezione di CSS per GAMING SYSTEMS -- Autore: Vincenzo Buonomo */
+
+
+
+
+
+
+
+
+
+/* Sezione CSS per Featured -- Autore: Elio Castellini */
+
+
+.section{
+    display: flex;
+    width:100%;
+    max-width: 100%;
+    margin: auto;
+    display: flex;
+    align-items:center;
+}
+
+.intro-text { text-transform: uppercase;
+    font-size: 20px;font-weight: bold;}
+
+.Box-features {
+    border-bottom-left-radius: 0.25rem;
+    border-bottom-right-radius: 0.25rem;
+    padding-top: 2rem;
+    position: relative;
+    -webkit-box-flex: 1;
+    flex-grow: 1;
+    border-width: 0px 1px 1px;
+    border-right-style: solid;
+    border-bottom-style: solid;
+    border-left-style: solid;
+    border-right-color: rgb(218, 218, 218);
+    border-bottom-color: rgb(218, 218, 218);
+    border-left-color: rgb(218, 218, 218);
+    border-image: initial;
+    border-top-style: initial;
+    border-top-color: initial;
+    background-color: rgb(255, 255, 255);
+    justify-content: space-between;
+    padding: 0px 1rem;
+    
+
+}
+
+.immagine-box {
+    border-top-left-radius: 0.25rem;
+    border-top-right-radius: 0.25rem;
+    overflow: hidden;
+}
+.box-h3 {
+    font-size: 0.875rem;
+    font-weight: 700;
+    margin: 0px;
+    overflow: hidden;
+    height: calc(2.8em);
+    padding-left: 0.375rem;
+    color: black;
+}
+
+
+
+a:hover {
+    color: red;
+}
+
+span  {
+    padding-left: 0.375rem;
+    border-left: 3px solid rgb(230, 0, 18);
+    color: black;
+    
+}
+
+/* Sezione CSS per Featured -- Autore: Elio Castellini */

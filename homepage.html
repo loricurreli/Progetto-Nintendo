@@ -16,7 +16,8 @@
     
     <!--Sezione header+navbar: autore Massimo Caser-->
     
-    <header class="d-flex align-items-center">
+    <header class="container-1 d-flex align-items-center">
+      <div class="d-flex align-items-center">
         <img class="logo-nintendo" src="assets/logo_nintendo.png" alt="logo Nintendo">
         <hr class="separate">
         <form class="linea" action="">
@@ -35,9 +36,9 @@
                 <option value="Support">Support</option>
             </select>
         </form>
-        
+       </div>
         <div class="container">
-            <ul class=" ul-header d-flex ">
+            <ul class=" ul-header d-flex">
                 
                 <li class="d-flex align-items-center"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-question-square-fill" viewBox="0 0 16 16">
                   <path d="M2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2zm3.496 6.033a.237.237 0 0 1-.24-.247C5.35 4.091 6.737 3.5 8.005 3.5c1.396 0 2.672.73 2.672 2.24 0 1.08-.635 1.594-1.244 2.057-.737.559-1.01.768-1.01 1.486v.105a.25.25 0 0 1-.25.25h-.81a.25.25 0 0 1-.25-.246l-.004-.217c-.038-.927.495-1.498 1.168-1.987.59-.444.965-.736.965-1.371 0-.825-.628-1.168-1.314-1.168-.803 0-1.253.478-1.342 1.134-.018.137-.128.25-.266.25h-.825zm2.325 6.443c-.584 0-1.009-.394-1.009-.927 0-.552.425-.94 1.01-.94.609 0 1.028.388 1.028.94 0 .533-.42.927-1.029.927z"/>
@@ -84,8 +85,10 @@
     <section class="sect-buynow d-flex align-items-center">
       <h1>Nintendo Switch Sports available now</h1>
       <button class="Buynow">Buy now</button>
+      <div class="container-esrb d-flex align-items-center">
       <img class="esrb-logo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/ESRB_2013_Everyone_10%2B.svg/1365px-ESRB_2013_Everyone_10%2B.svg.png" alt="">
       <p>Mild Violence <br> In-Games Purchases, Users Interact</p>
+      </div>
     </section>
     <hr class="separate-2">
     <br><br>
@@ -99,40 +102,148 @@
     
     
     
+        <!--Sezione Featured --- Autore: Elio Castellini-->
     
     
+    <section>
+    
+    
+    
+    <h2 class="intro-text">Featured</h2>
+    
+    <article class="section">
+       
+        <div class="Box-features">
+            <img class="immagine-box"
+      width="260"
+      height="146.5"
+      
+      src="assets/kirby.jpg" 
+      alt="" >
+      
+        <h3 class="box-h3"><a href ="">Kirby and the forgotten Land</a></h3>
+        
+        <span>Nintendo Switch </span>
+         
+         </div>  
+
+         
+        
+        <div class="Box-features">
+
+            <img class="immagine-box"
+            width="260"
+            height="146.5"
+            
+            src="assets/mario.jpg" 
+            alt="" >
+            <h3 class="box-h3"><a href ="">Mario Strike - Pre Order - Now </a></h3>
+            <span>Nintendo Switch </span>
+        </div>
+
+
+        <div class="Box-features">
+
+            <img class="immagine-box"
+            width="260"
+            height="146.5"
+            
+            src="assets/starwars.png" 
+            alt="" >
+            <h3 class="box-h3"><a href ="">Starwars the force unleashed </a></h3>
+            <span>Nintendo Switch </span>
+        </div>
+
+        <div class="Box-features">
+
+            <img class="immagine-box"
+            width="260"
+            height="146.5"
+            
+            src="assets/kart.jpg" 
+            alt="" >
+            <h3 class="box-h3"><a href ="">Mario Kart 8 Deluxe</a></h3>
+            <span>Nintendo Switch </span>
+        </div>
+
+
+        
+        <div class="Box-features">
+
+            <img class="immagine-box"
+            width="260"
+            height="146.5"
+            
+            src="assets/zelda.jpg" 
+            alt="" >
+            <h3 class="box-h3"><a href ="">Parti all avventura con Link</a></h3>
+            <span>Nintendo Switch </span>
+        </div>
+
+     
+      </article>
+
+</section>
+    
+     
+<hr>
+    
+    
+    <!--Fine sezione Featured --- Autore: Elio Castellini-->
     
     
     
     
      <!--Sezione Online Store -- Autore: Lorenzo Curreli -->
-    
-    
-    
-    
-    <!--Creo un article con id per settare poi le dimensioni sul css-->
-    <article id="origin">
 
-      <h2>Online store</h2>
-      <a href="https://www.nintendo.com/store/"><img src="assets/origin.png" alt="Immagine di nintendo" height="150" width="1250"></a>
-      
-      <p>
-          <span>
-              Shop games, exclusive Nintendo merchandise, and more! Plus, get free shipping on orders $50 and over.
-          </span>
-          <span id="shopping"> 
-              <a href="https://www.nintendo.com/store/">Start shopping</a>
-          </span>
-      
-          
-      </p> 
-  </article>
-  </br></br></br>
-
+<section id="online_store">
+        <div id="store">
+            <h1>Online Store</h1>
+            <a href="https://www.nintendo.com/store/">
+                <picture>
+                    <source media="(max-width:615px)" srcset="assets/origin615.png">
+                    <source media="(max-width:830px)" srcset="assets/origin830.png">
+                    <source media="(max-width:1025px)" srcset="assets/origin1025.png">
+                    <img src="assets/origin.png" alt="logo online store nintendo">
+                    
+                  </picture>
+            </a>
+            <div id="shop_description">
+                <p> Shop games, exclusive Nintendo merchandise, and more! Plus, get free shipping on orders $50 and over. </p>
+                <form>
+                  <a id="shop" href="https://www.nintendo.com/store/">
+                    <input  type="button" value="Start shopping">
+                  </a>                  
+                </form>
+            </div>
+            
+        </div>
+        
+    </section>
+    <hr>
   <!--Fine Sessione Online Store -- Autore: Lorenzo Curreli-->
 
 
 
+      <!--Inizio Sezione Gaming Systems-- Autore: Vincenzo Buonomo-->
+
+      <section class="gsection">
+        <div class="gamingsystems">
+          <div class="gamingsystems">
+            <h1>Gaming systems</h1>
+              <div>
+                <img alt="Nintendo Switch family" class="imgamingsystems" src="assets/Nintendo_Switch.jpg">
+              </div>
+
+              <p>
+                <span><b>Find the perfect Nintendo Switch system for you.</b></span>
+                <span id="shopping">Explore now</span>
+              </p>
+              
+            </div>
+          </section>
+  
+      <!--Fine Sezione Gaming Systems-- Autore: Vincenzo Buonomo-->
 
 
 
@@ -142,32 +253,38 @@
 
 
     <!--Creo un div characters come contenitore più grande di altri div-->
-    <h1 class="personaggi">Characters</h1>
     <div class="characters">
-        <div class="card">
-          <img src="https://assets.nintendo.com/image/upload/f_auto/q_auto/dpr_auto/c_scale,w_200/v1/ncom/en_US/merchandising/Character%20Portals/1600x1600_NCOM_Home_Characters_Mario" alt="supermario" class="img_card d-flex">
-        </div>
+      <div class="box">
+          <h1 class="personaggi">Characters</h1>
+              <div class="card">
+                  <img src="https://assets.nintendo.com/image/upload/f_auto/q_auto/dpr_auto/c_scale,w_200/v1/ncom/en_US/merchandising/Character%20Portals/1600x1600_NCOM_Home_Characters_Mario" alt="supermario" class="img_card d-flex">
+              </div>
+          <h2 class="mario-top">Super Mario™️</h2>
+      </div>
+      
+      <div class="box">
+          <div class="card-2">
+              <img src="https://assets.nintendo.com/image/upload/f_auto/q_auto/dpr_auto/c_scale,w_200/v1/ncom/en_US/merchandising/Character%20Portals/1600x1600_NCOM_Home_Characters_TLOZ_BOTW" alt="zelda" class="img_card-2">
+          </div>
+              <h2 class="next-mario">The Legend of Zelda™️</h2>
+      </div>
 
-        <div class="d-flex card-2">
-          <img src="https://assets.nintendo.com/image/upload/f_auto/q_auto/dpr_auto/c_scale,w_200/v1/ncom/en_US/merchandising/Character%20Portals/1600x1600_NCOM_Home_Characters_TLOZ_BOTW" alt="zelda" class="img_card-2">
-        </div>
+      <div class="box">
+          <div class="card-3">
+              <img src="https://assets.nintendo.com/image/upload/f_auto/q_auto/dpr_auto/c_scale,w_200/v1/ncom/en_US/merchandising/Character%20Portals/1600x1600_NCOM_Home_Characters_Animal_Crossing" alt="animal crossing" class="img_card-3">
+          </div>
+              <h2 class="next-mario">Animal Crossing™</h2>
+      </div>
 
-        <div class="card-3">
-          <img src="https://assets.nintendo.com/image/upload/f_auto/q_auto/dpr_auto/c_scale,w_200/v1/ncom/en_US/merchandising/Character%20Portals/1600x1600_NCOM_Home_Characters_Animal_Crossing" alt="animal crossing" class="img_card-3">
-        </div>
+      <div class="box">
+          <div class="card-4">
+              <img src="https://assets.nintendo.com/image/upload/f_auto/q_auto/dpr_auto/c_scale,w_200/v1/ncom/en_US/merchandising/Character%20Portals/1600x1600_NCOM_Home_Characters_Kirby" alt="kirby" class="img_card-4">
+          </div>
+              <h2 class="next-mario">Kirby™️</h2>
+      </div>
+</div>
 
-        <div class="card-4">
-          <img src="https://assets.nintendo.com/image/upload/f_auto/q_auto/dpr_auto/c_scale,w_200/v1/ncom/en_US/merchandising/Character%20Portals/1600x1600_NCOM_Home_Characters_Kirby" alt="kirby" class="img_card-4">
-        </div>
-    </div>
-
-    <div class="characters-h2">
-      <h2>Super Mario™️</h2>
-      <h2>The Legend of Zelda™️</h2>
-      <h2>Animal Crossing™</h2>
-      <h2>Kirby™️</h2>
-    </div>
-    <hr>
+<hr class="separate-2">
 
 
 

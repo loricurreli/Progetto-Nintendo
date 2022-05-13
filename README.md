@@ -1,3 +1,5 @@
+
+
 Progetto Nintendo TEAM 4
 
 Branch nintendo: questo branch contiene lo stato attuale della homepage, compreso il css e la cartella delle immagini.
@@ -15,5 +17,4 @@ Collaboratori
 -Lorenzo Curreli
 
 Obiettivo: Realizzazione della homepage del sito nintendo.com
-
 
