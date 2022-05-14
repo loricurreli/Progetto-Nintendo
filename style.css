@@ -880,7 +880,9 @@ span  {
 .big-article {
     max-width: 556px;
     max-height: 576px;
-    
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
 }
 .big-article img{
     width: 556px;
@@ -910,6 +912,11 @@ span  {
 .small-article {
     max-width: 262px;
     max-height: 367px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+    margin-top: 50px;
+
 }
 .small-article img {
     width: 262px;
