@@ -867,3 +867,33 @@ span  {
 
 
 /* Sezione CSS per News -- Autore: Laurent Gagné */
+
+/*Sezione Digital new releases-- Autore: Elio Castellini */
+
+.digital {
+    display:flex;
+    align-items: flex-end;
+
+}
+
+.new {
+    
+    background-color: red;
+    color: white;
+    font-weight: 700;
+    align-items: center;
+
+}
+
+.bundle {
+    
+    background-color: rgb(103, 7, 148);
+    color: white;
+    font-weight: 700;
+    align-items: center;
+
+}
+
+.dollaro  {
+    padding-left: 0.375rem;
+    color: black;}
