@@ -786,6 +786,8 @@ h1
     margin: auto;
     display: flex;
     align-items:center;
+    margin-bottom: 50px;
+    margin-top: 50px;
 }
 
 .intro-text { text-transform: uppercase;
@@ -827,13 +829,20 @@ h1
     overflow: hidden;
     height: calc(2.8em);
     padding-left: 0.375rem;
-    color: black;
+    color:black;
+
 }
 
 
 
+<<<<<<< HEAD
 .Box-features a:hover {
     color: red;
+=======
+a:hover {
+    color: rgb(255, 0, 0);
+    
+>>>>>>> nintendo
 }
 
 span  {
@@ -843,7 +852,7 @@ span  {
     
 }
 
-/* Sezione CSS per Featured -- Autore: Elio Castellini */
+/* Fine Sezione CSS per Featured -- Autore: Elio Castellini */
 
 /* Sezione CSS per News -- Autore: Laurent Gagné */
 .news-container {
@@ -977,3 +986,102 @@ span  {
 
 
 /* Fine Sezione CSS per News -- Autore: Laurent Gagné */
+/* Sezione CSS per News -- Autore: Laurent Gagné */
+
+/*Sezione Digital new releases-- Autore: Elio Castellini */
+
+
+.distacco {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+   
+
+}
+
+.intro-dig {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    text-transform: uppercase;
+    font-size: 20px;font-weight: bold;}
+
+
+
+.blocco  {
+    display: flex;
+    flex-basis: 100%;  
+    width: 100%;
+    align-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+   
+    
+    
+}
+
+.inter-block {
+    position: relative;
+    margin-left: 0%;
+    margin: bottom 0;
+    margin-top: 50px;
+    
+   
+}
+
+.inter-block2 {
+    position: relative;
+    margin-left: 0%;
+    margin-bottom: 0%;
+    margin-top: 100px;
+}
+
+.interspazio {
+    margin-right: 40px;
+    border-bottom: 1px solid rgb(218, 218, 218);
+    border-left: 1px solid rgb(218, 218, 218);
+    border-right: 1px solid rgb(218, 218, 218);
+    
+    
+}
+
+
+.new {
+    
+    background-color: red;
+    color: white;
+    text-align: center;
+    
+
+}
+
+.bundle {
+    
+    background-color: rgb(103, 7, 148);
+    color: white;
+    text-align: center;
+
+}
+
+.dollaro  {
+    padding-left: 0.375rem;
+    color: black;}
+
+.digital-img {
+    width: 260px;
+    height: 146px;
+
+} 
+.sconto {
+    margin-top: 30px;
+    margin-bottom: 10px;
+    background-color: red;
+    color: white;
+    border-radius:10px 0px 0px 10px;
+    width: max-content;
+    font-size: small;
+      
+
+}
+
+/*Fine sezione Digital new releases-- Autore: Elio Castellini  */
