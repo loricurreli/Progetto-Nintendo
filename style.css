@@ -835,9 +835,8 @@ h1
 
 
 
-a:hover {
-    color: rgb(255, 0, 0);
-    
+.Box-features a:hover {
+    color: red;
 }
 
 span  {
@@ -858,7 +857,7 @@ span  {
             ". title ."
             ". big-article ."
             ". small-article ."
-            ". . .";
+            ". button .";
     row-gap: 20px;
 
 }
@@ -884,7 +883,9 @@ span  {
 .big-article {
     max-width: 556px;
     max-height: 576px;
-    
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
 }
 .big-article img{
     width: 556px;
@@ -895,8 +896,7 @@ span  {
     display: grid;
     grid-template-columns: 50px 1fr 1fr 1fr 1fr 50px;
     grid-template-areas: 
-        ". sml-art1 sml-art2 sml-art3 sml-art4 ."
-        ". button . . . .";
+        ". sml-art1 sml-art2 sml-art3 sml-art4 .";
     justify-items: space-around;
     gap: 2rem;
 }
@@ -915,10 +915,16 @@ span  {
 .small-article {
     max-width: 262px;
     max-height: 367px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+    margin-top: 50px;
+
 }
 .small-article img {
     width: 262px;
 }
+
 .big-article p,
 .small-article p{
     margin: 0;
@@ -932,6 +938,7 @@ span  {
     padding-bottom: 1px;
     max-width: fit-content;
 }
+
 .big-article:hover img, 
 .small-article:hover img {
     opacity: .7;
@@ -948,24 +955,29 @@ span  {
 
 .all-articles-btn {
     background-color: red;
+    border-radius: 5px;
     color: white;
     width: 252px;
     height: 48px;
-    transition: 2s;
+    transition: 0.3s;
+    transition-timing-function: cubic-bezier(0.6, 1.0, 0.8);
     text-decoration: none;
     font-size: larger;
     grid-area: button;
     text-align: center;
+    padding-top: 10px;
+    margin-left: 80px;
+    margin-bottom: 30px;
 }
 
 .all-articles-btn:hover {
-    width: 270px;
+    width: 262px;
     height: 55px;
+    padding-top: 15px;
+    background-color: darkred;
 }
 
-
-
-/* Sezione CSS per News -- Autore: Laurent Gagné */
+/* Fine Sezione CSS per News -- Autore: Laurent Gagné */
 
 /*Sezione Digital new releases-- Autore: Elio Castellini */
 
