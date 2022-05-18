@@ -793,7 +793,7 @@ h1
 .intro-text { text-transform: uppercase;
     font-size: 20px;font-weight: bold;}
 
-.Box-features {
+.Box-features  {
     border-bottom-left-radius: 0.25rem;
     border-bottom-right-radius: 0.25rem;
     padding-top: 2rem;
@@ -833,10 +833,13 @@ h1
 
 }
 
-
+a {
+    color: #000;
+}
 
 .Box-features a:hover {
     color: red;
+    text-decoration: none;
 }
 
 span  {
@@ -989,12 +992,18 @@ span  {
 
 }
 
+a:hover {
+    color: red;
+}
+
 .intro-dig {
     margin-left: auto;
     margin-right: auto;
     margin-top: 50px;
     text-transform: uppercase;
-    font-size: 20px;font-weight: bold;}
+    font-size: 20px;font-weight: bold;
+    align-self: center;
+}
 
 
 
@@ -1002,9 +1011,7 @@ span  {
     display: flex;
     flex-basis: 100%;  
     width: 100%;
-    align-content: center;
-    margin-left: auto;
-    margin-right: auto;
+    justify-content: center;
     margin-top: 50px;
    
     
