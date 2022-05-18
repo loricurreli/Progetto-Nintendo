@@ -994,6 +994,7 @@ span  {
 
 a:hover {
     color: red;
+    cursor: pointer;
 }
 
 .intro-dig {
