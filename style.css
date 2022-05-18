@@ -82,10 +82,16 @@ body {
     margin-right: 20px;
 }
 
+.link-header {
+    text-decoration: none;
+    color: #000;
+}
+
 .all-categories:hover,
 .ul-header li:hover,
 .linea:hover,
- nav a:hover {
+ nav a:hover,
+ .link-header:hover {
     color: rgb(230, 0, 18);
 }
 
