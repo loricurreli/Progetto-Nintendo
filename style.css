@@ -984,7 +984,8 @@ span  {
 
 /*Sezione Digital new releases-- Autore: Elio Castellini */
 
-
+@media all and (max-width: 300px)  ,
+(min-width: 900px) {
 .distacco {
     margin-top: 3rem;
     margin-bottom: 3rem;
@@ -1066,11 +1067,7 @@ a:hover {
     padding-left: 0.375rem;
     color: black;}
 
-.digital-img {
-    width: 260px;
-    height: 146px;
 
-} 
 .sconto {
     margin-top: 30px;
     margin-bottom: 10px;
@@ -1087,7 +1084,7 @@ a:hover {
     margin-left: 250px;
     
 }
-
+}
 /*Fine sezione Digital new releases-- Autore: Elio Castellini  */
 
 
