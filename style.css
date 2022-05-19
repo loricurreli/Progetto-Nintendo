@@ -688,7 +688,11 @@ footer {
     width: 100vw;
 }
 
-/* BRAND BAR */
+/* BRANDBAR */
+/* BRANDBAR */
+/* BRANDBAR */
+/* BRANDBAR */
+
 .brandbar {
     background-color: rgb(230, 0, 18);
     padding: 2.25rem 1rem;
@@ -740,6 +744,12 @@ footer {
 }
 
 /* LINKBAR */
+/* LINKBAR */
+/* LINKBAR */
+/* LINKBAR */
+/* LINKBAR */
+/* LINKBAR */
+
 .linkbar {
     background-color: rgb(255, 255, 255);
     padding: 2rem 1rem;
@@ -916,6 +926,146 @@ footer {
     width: 60px;
 }
 
+/* LEGALBAR */
+/* LEGALBAR */
+/* LEGALBAR */
+/* LEGALBAR */
+/* LEGALBAR */
+/* LEGALBAR */
+
+@media (min-width: 1025px) {
+    .legalbar {
+        padding: 2rem 1rem;
+    }
+}
+
+.legalbar {
+    background-color: rgb(36, 36, 36);
+    /* padding: 2rem 1rem 114px; */
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+.legalbar-container {
+    max-width: 90rem;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media (min-width: 1025px) {
+    .legalbar-links-container {
+        grid-template-columns: 1fr auto auto;
+    }
+}
+
+.legalbar-links-container {
+    display: grid;
+    /* grid-template-columns: 1fr; */
+    gap: 2rem;
+    -webkit-box-align: center;
+    align-items: center;
+}
+
+@media (min-width: 1025px) {
+    .legalbar-text {
+        max-width: unset;
+        text-align: left;
+    }
+}
+
+@media (min-width: 429px) {
+    .legalbar-text {
+        font-size: 0.75rem;
+    }
+}
+
+.legalbar-text {
+    text-align: center;
+    max-width: 60em;
+    margin-left: auto;
+    margin-right: auto;
+    margin: 0px;
+    font-weight: 300;
+    font-size: 0.700rem;
+    display: flex;
+}
+
+@media (min-width: 1025px) {
+    .legalbar-links {
+        -webkit-box-pack: start;
+        justify-content: start;
+    }
+}
+
+.legalbar-links {
+    display: inline-flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.legalbar-links-a {
+    color: rgb(255, 255, 255);
+}
+
+.legalbar-links-a:hover {
+    border-bottom: 2px solid rgb(255, 255, 255);
+    transition: border-bottom-color 200ms ease-in-out 25ms, color 200ms ease-in-out 25ms;
+}
+
+.legalbar-links-span:hover {
+    color: rgb(255, 255, 255);
+}
+
+@media (min-width: 1025px) {
+    .legalbar-changeregion {
+        margin-top: 0.25rem;
+    }
+}
+
+.legalbar-changeregion {
+    color: rgb(255, 255, 255);
+    padding: 0px;
+    border: none;
+}
+
+.kGZKrz {
+    padding: 0.5rem;
+    display: inline-block;
+    position: relative;
+    background-color: transparent;
+    color: rgb(230, 0, 18);
+    border-width: 0.25rem;
+    border-style: solid;
+    border-color: transparent;
+    border-radius: 0.25rem;
+    line-height: 0.714286;
+    transition: color 200ms ease-in-out 25ms, border-color 200ms ease-in-out 25ms;
+}
+
+.gCMbxZ {
+    font-weight: 700;
+    cursor: pointer;
+    display: inline-flex;
+    -webkit-box-align: center;
+    align-items: center;
+    position: relative;
+    margin: 0px;
+}
+
+.legalbar-icon-svg {
+    width: 2.25rem;
+    padding-right: 0.5rem;
+    padding-left: 0px;
+    box-sizing: content-box;
+    right: auto;
+}
+
+.legalbar-changeregion{
+    text-decoration: none;
+}
+
 /* Fine Sezione footer -- Autore: Marco Spicuzza */
 
 /*Inizio Sezione di CSS per GAMING SYSTEMS -- Autore: Vincenzo Buonomo */
@@ -1032,7 +1182,6 @@ a {
     border-left: 3px solid rgb(230, 0, 18);
     color: black;
     
-}
 }
 /* Fine Sezione CSS per Featured -- Autore: Elio Castellini */
 
@@ -1177,7 +1326,7 @@ a {
    
 
 }
-
+}
 a:hover {
     color: red;
     cursor: pointer;
@@ -1421,5 +1570,4 @@ div.item_digit p:first-of-type:hover
 {
     padding-top: 40px;
 }
-
 /*Fine sezione Digital Best Sellers-- Autore: Lorenzo Curreli  */
