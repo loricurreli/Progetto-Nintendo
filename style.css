@@ -688,6 +688,7 @@ footer {
     width: 100vw;
 }
 
+/* BRAND BAR */
 .brandbar {
     background-color: rgb(230, 0, 18);
     padding: 2.25rem 1rem;
@@ -738,6 +739,115 @@ footer {
     text-decoration: none;
 }
 
+/* LINKBAR */
+.linkbar {
+    background-color: rgb(255, 255, 255);
+    padding: 2rem 1rem;
+}
+
+.linkbar-container {
+    max-width: 90rem;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media (min-width: 1025px) {
+    .linkbar-grid {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+
+@media (min-width: 768px) {
+    .linkbar-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media (min-width: 429px) {
+    .linkbar-grid {
+        grid-template-columns: repeat(2, 1fr);
+        column-gap: 1rem;
+    }
+}
+
+.linkbar-grid {
+    display: grid;
+    grid-template-columns: 15.625rem;
+    margin: 1rem auto;
+    row-gap: 2rem;
+    -webkit-box-pack: center;
+    justify-content: center;
+}
+
+.linkbar-grid-item:first-child {
+    grid-row: span 2 / auto;
+}
+
+.linkbar-grid-item {
+    border-left: 1px solid rgb(218, 218, 218);
+    padding-left: 1.5rem;
+}
+
+@media (min-width: 429px) {
+    .footer-h3 {
+        font-size: 1.125rem;
+    }
+}
+
+.footer-h3 {
+    font-size: 1rem;
+    font-weight: 700;
+    letter-spacing: 0px;
+    margin: 0px 0px 1em;
+    padding: 0px;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.hJcyAz {
+    background: transparent;
+    margin: 0px;
+    border: 0px;
+    line-height: 1.4;
+    border-radius: 0.25rem;
+    display: inline-block;
+    color: rgb(230, 0, 18);
+    box-shadow: rgb(172 0 13 / 0%) 0px 0px 0px 4px;
+    transition: box-shadow 200ms ease-in-out 25ms;
+}
+
+@media (min-width: 429px) {
+    .dMuDhT .heading-link-text {
+        font-size: 1.125rem;
+    }
+}
+
+.dMuDhT .heading-link-text {
+    color: rgb(72, 72, 72);
+    font-size: 1rem;
+    border-bottom-color: transparent;
+}
+
+@media (min-width: 429px) {
+    .hsnfrp {
+        font-size: 1rem;
+    }
+}
+
+.hsnfrp {
+    font-size: 0.875rem;
+    font-weight: 700;
+    cursor: pointer;
+    padding-bottom: 0px;
+    position: relative;
+    border-bottom: 2px solid rgb(230, 0, 18);
+    margin: 0px;
+    transition: border-bottom-color 200ms ease-in-out 25ms, color 200ms ease-in-out 25ms;
+}
 /* Fine Sezione footer -- Autore: Marco Spicuzza */
 
 /*Inizio Sezione di CSS per GAMING SYSTEMS -- Autore: Vincenzo Buonomo */
@@ -849,7 +959,7 @@ a {
     text-decoration: none;
 }
 
-span  {
+.nintendo-switch-span  {
     padding-left: 0.375rem;
     border-left: 3px solid rgb(230, 0, 18);
     color: black;
