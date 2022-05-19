@@ -743,6 +743,7 @@ footer {
 .linkbar {
     background-color: rgb(255, 255, 255);
     padding: 2rem 1rem;
+    display: block;
 }
 
 .linkbar-container {
@@ -752,28 +753,36 @@ footer {
     margin-right: auto;
 }
 
-@media (min-width: 1025px) {
-    .linkbar-grid {
-        grid-template-columns: repeat(4, 1fr);
-    }
-}
-
-@media (min-width: 768px) {
-    .linkbar-grid {
-        grid-template-columns: repeat(3, 1fr);
-    }
-}
-
-@media (min-width: 429px) {
+@media (min-width: 429px) and (max-width: 767px) {
     .linkbar-grid {
         grid-template-columns: repeat(2, 1fr);
         column-gap: 1rem;
     }
 }
 
+@media (min-width: 768px) and (max-width: 1024px) {
+    .linkbar-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media (min-width: 1025px) and (max-width: 1439px) {
+    .linkbar-grid {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+
+
+@media (min-width: 1440px) {
+    .linkbar-grid {
+        grid-template-columns: repeat(7, 1fr);
+        margin-left: 1rem;
+    }
+}
+
 .linkbar-grid {
     display: grid;
-    grid-template-columns: 15.625rem;
+    /* grid-template-columns: 15.625rem; */
     margin: 1rem auto;
     row-gap: 2rem;
     -webkit-box-pack: center;
@@ -851,7 +860,7 @@ footer {
     cursor: pointer;
     padding-bottom: 0px;
     position: relative;
-    margin: 0px;
+    margin-left: -40px;
 }
 
 .hsnfrp:hover {
@@ -896,6 +905,15 @@ footer {
 
 .jSxCV:hover {
     color: rgb(165, 0, 14);;
+}
+
+.linkbar-logo-certified {
+    display: flex;
+    justify-content: end;
+}
+
+.logo-certified {
+    width: 60px;
 }
 
 /* Fine Sezione footer -- Autore: Marco Spicuzza */
