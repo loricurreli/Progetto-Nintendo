@@ -685,6 +685,7 @@ a input:hover{
 
 footer {
     display: block;
+    width: 100vw;
 }
 
 .brandbar {
@@ -699,41 +700,42 @@ footer {
 @media (min-width: 768px) {
     .page-container {
         width: 100%;
-        justify-items: end;
-        grid-template-columns: auto 58px 58px 58px 58px;
     }
 }
 
 .page-container {
     color: rgb(255, 255, 255);
-    display: grid;
     place-items: center;
     -webkit-box-align: center;
+    width: auto;
     gap: 2rem;
     max-width: 90rem;
     width: 100%;
     margin-left: auto;
     margin-right: auto;
-    grid-template-columns: auto 200px 200px 200px 200px;
 }
 
-@media (min-width: 768px) {
-    .page-container:first-child {
-        justify-self: start;
-        grid-column: span 1 / auto;
-    }
+.icons {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
-.page-container:first-child {
-    grid-column: span 4 / auto;
-    justify-self: center;
+.icons2 {
+    display: flex;
+    gap: 3rem;
 }
-
-
-
 
 .svg-icons {
     color: rgb(255, 255, 255);
+}
+
+.svg-icons2 {
+    color: rgb(255, 255, 255);
+}
+
+.nintendo-logo-footer:link, .icons2:link {
+    text-decoration: none;
 }
 
 /* Fine Sezione footer -- Autore: Marco Spicuzza */
