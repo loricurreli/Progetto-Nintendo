@@ -82,10 +82,16 @@ body {
     margin-right: 20px;
 }
 
+.link-header {
+    text-decoration: none;
+    color: #000;
+}
+
 .all-categories:hover,
 .ul-header li:hover,
 .linea:hover,
- nav a:hover {
+ nav a:hover,
+ .link-header:hover {
     color: rgb(230, 0, 18);
 }
 
@@ -679,7 +685,13 @@ a input:hover{
 
 footer {
     display: block;
+    width: 100vw;
 }
+
+/* BRANDBAR */
+/* BRANDBAR */
+/* BRANDBAR */
+/* BRANDBAR */
 
 .brandbar {
     background-color: rgb(230, 0, 18);
@@ -693,41 +705,365 @@ footer {
 @media (min-width: 768px) {
     .page-container {
         width: 100%;
-        justify-items: end;
-        grid-template-columns: auto 58px 58px 58px 58px;
     }
 }
 
 .page-container {
     color: rgb(255, 255, 255);
-    display: grid;
     place-items: center;
     -webkit-box-align: center;
+    width: auto;
     gap: 2rem;
     max-width: 90rem;
     width: 100%;
     margin-left: auto;
     margin-right: auto;
-    grid-template-columns: auto 200px 200px 200px 200px;
 }
 
-@media (min-width: 768px) {
-    .page-container:first-child {
-        justify-self: start;
-        grid-column: span 1 / auto;
-    }
+.icons {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
-.page-container:first-child {
-    grid-column: span 4 / auto;
-    justify-self: center;
+.icons2 {
+    display: flex;
+    gap: 3rem;
 }
-
-
-
 
 .svg-icons {
     color: rgb(255, 255, 255);
+}
+
+.svg-icons2 {
+    color: rgb(255, 255, 255);
+}
+
+.nintendo-logo-footer:link, .icons2:link {
+    text-decoration: none;
+}
+
+/* LINKBAR */
+/* LINKBAR */
+/* LINKBAR */
+/* LINKBAR */
+/* LINKBAR */
+/* LINKBAR */
+
+.linkbar {
+    background-color: rgb(255, 255, 255);
+    padding: 2rem 1rem;
+    display: block;
+}
+
+.linkbar-container {
+    max-width: 90rem;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media (min-width: 429px) and (max-width: 767px) {
+    .linkbar-grid {
+        grid-template-columns: repeat(2, 1fr);
+        column-gap: 1rem;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .linkbar-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media (min-width: 1025px) and (max-width: 1439px) {
+    .linkbar-grid {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+
+
+@media (min-width: 1440px) {
+    .linkbar-grid {
+        grid-template-columns: repeat(7, 1fr);
+        margin-left: 1rem;
+    }
+}
+
+.linkbar-grid {
+    display: grid;
+    /* grid-template-columns: 15.625rem; */
+    margin: 1rem auto;
+    row-gap: 2rem;
+    -webkit-box-pack: center;
+    justify-content: center;
+}
+
+.linkbar-grid-item:first-child {
+    grid-row: span 2 / auto;
+}
+
+.linkbar-grid-item {
+    border-left: 1px solid rgb(218, 218, 218);
+    padding-left: 1.5rem;
+}
+
+@media (min-width: 429px) {
+    .footer-h3 {
+        font-size: 1.125rem;
+    }
+}
+
+.footer-h3 {
+    font-size: 1rem;
+    font-weight: 700;
+    letter-spacing: 0px;
+    margin: 0px 0px 1em;
+    padding: 0px;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.hJcyAz {
+    background: transparent;
+    margin: 0px;
+    border: 0px;
+    line-height: 1.4;
+    border-radius: 0.25rem;
+    /* display: inline-block; */
+    box-shadow: rgb(172 0 13 / 0%) 0px 0px 0px 4px;
+    transition: box-shadow 200ms ease-in-out 25ms;
+}
+
+.hJcyAz:link {
+    text-decoration: none;
+}
+
+.dMuDhT .heading-link-text {
+    color: rgb(72, 72, 72);
+    font-size: 1rem;
+}
+
+.dMuDhT:hover {
+    border-bottom: 2px solid rgb(72, 72, 72);
+    transition: border-bottom-color 200ms ease-in-out 25ms, color 200ms ease-in-out 25ms;
+}
+
+@media (min-width: 429px) {
+    .dMuDhT .heading-link-text {
+        font-size: 1.125rem;
+    }
+}
+
+@media (min-width: 429px) {
+    .hsnfrp {
+        font-size: 1rem;
+    }
+}
+
+.hsnfrp {
+    font-size: 0.875rem;
+    font-weight: 700;
+    cursor: pointer;
+    padding-bottom: 0px;
+    position: relative;
+    margin-left: -40px;
+}
+
+.hsnfrp:hover {
+    border-bottom: 2px solid rgb(165, 0, 14);
+    transition: border-bottom-color 200ms ease-in-out 25ms, color 200ms ease-in-out 25ms;
+}
+
+.KaUsA {
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+    line-height: 2em;
+}
+
+@media (min-width: 429px) {
+    .linkbar-linklist {
+        font-size: 1rem;
+    }
+}
+
+.linkbar-linklist {
+    font-weight: 300;
+    font-size: 0.875rem;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+
+.linkbar-listitem {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+
+.jSxCV {
+    margin-bottom: 0.5rem;
+    color: rgb(230, 0, 18);
+    text-decoration: none;
+}
+
+.jSxCV:hover {
+    color: rgb(165, 0, 14);;
+}
+
+.linkbar-logo-certified {
+    display: flex;
+    justify-content: end;
+}
+
+.logo-certified {
+    width: 60px;
+}
+
+/* LEGALBAR */
+/* LEGALBAR */
+/* LEGALBAR */
+/* LEGALBAR */
+/* LEGALBAR */
+/* LEGALBAR */
+
+@media (min-width: 1025px) {
+    .legalbar {
+        padding: 2rem 1rem;
+    }
+}
+
+.legalbar {
+    background-color: rgb(36, 36, 36);
+    /* padding: 2rem 1rem 114px; */
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+.legalbar-container {
+    max-width: 90rem;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media (min-width: 1025px) {
+    .legalbar-links-container {
+        grid-template-columns: 1fr auto auto;
+    }
+}
+
+.legalbar-links-container {
+    display: grid;
+    /* grid-template-columns: 1fr; */
+    gap: 2rem;
+    -webkit-box-align: center;
+    align-items: center;
+}
+
+@media (min-width: 1025px) {
+    .legalbar-text {
+        max-width: unset;
+        text-align: left;
+    }
+}
+
+@media (min-width: 429px) {
+    .legalbar-text {
+        font-size: 0.75rem;
+    }
+}
+
+.legalbar-text {
+    text-align: center;
+    max-width: 60em;
+    margin-left: auto;
+    margin-right: auto;
+    margin: 0px;
+    font-weight: 300;
+    font-size: 0.700rem;
+    display: flex;
+}
+
+@media (min-width: 1025px) {
+    .legalbar-links {
+        -webkit-box-pack: start;
+        justify-content: start;
+    }
+}
+
+.legalbar-links {
+    display: inline-flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.legalbar-links-a {
+    color: rgb(255, 255, 255);
+}
+
+.legalbar-links-a:hover {
+    border-bottom: 2px solid rgb(255, 255, 255);
+    transition: border-bottom-color 200ms ease-in-out 25ms, color 200ms ease-in-out 25ms;
+}
+
+.legalbar-links-span:hover {
+    color: rgb(255, 255, 255);
+}
+
+@media (min-width: 1025px) {
+    .legalbar-changeregion {
+        margin-top: 0.25rem;
+    }
+}
+
+.legalbar-changeregion {
+    color: rgb(255, 255, 255);
+    padding: 0px;
+    border: none;
+}
+
+.kGZKrz {
+    padding: 0.5rem;
+    display: inline-block;
+    position: relative;
+    background-color: transparent;
+    color: rgb(230, 0, 18);
+    border-width: 0.25rem;
+    border-style: solid;
+    border-color: transparent;
+    border-radius: 0.25rem;
+    line-height: 0.714286;
+    transition: color 200ms ease-in-out 25ms, border-color 200ms ease-in-out 25ms;
+}
+
+.gCMbxZ {
+    font-weight: 700;
+    cursor: pointer;
+    display: inline-flex;
+    -webkit-box-align: center;
+    align-items: center;
+    position: relative;
+    margin: 0px;
+}
+
+.legalbar-icon-svg {
+    width: 2.25rem;
+    padding-right: 0.5rem;
+    padding-left: 0px;
+    box-sizing: content-box;
+    right: auto;
+}
+
+.legalbar-changeregion{
+    text-decoration: none;
 }
 
 /* Fine Sezione footer -- Autore: Marco Spicuzza */
@@ -778,14 +1114,13 @@ h1
 
 /* Sezione CSS per Featured -- Autore: Elio Castellini */
 
-
+@media all and (max-width: 300px)  ,
+(min-width: 900px) {
 .section{
     display: flex;
     width:100%;
-    max-width: 100%;
     margin: auto;
-    display: flex;
-    align-items:center;
+    align-items:stretch;
     margin-bottom: 50px;
     margin-top: 50px;
 }
@@ -793,7 +1128,7 @@ h1
 .intro-text { text-transform: uppercase;
     font-size: 20px;font-weight: bold;}
 
-.Box-features {
+.Box-features  {
     border-bottom-left-radius: 0.25rem;
     border-bottom-right-radius: 0.25rem;
     padding-top: 2rem;
@@ -833,19 +1168,21 @@ h1
 
 }
 
-
+a {
+    color: #000;
+}
 
 .Box-features a:hover {
     color: red;
+    text-decoration: none;
 }
 
-span  {
+.nintendo-switch-span  {
     padding-left: 0.375rem;
     border-left: 3px solid rgb(230, 0, 18);
     color: black;
     
 }
-
 /* Fine Sezione CSS per Featured -- Autore: Elio Castellini */
 
 /* Sezione CSS per News -- Autore: Laurent Gagné */
@@ -981,12 +1318,18 @@ span  {
 
 /*Sezione Digital new releases-- Autore: Elio Castellini */
 
-
+@media all and (max-width: 300px)  ,
+(min-width: 900px) {
 .distacco {
     margin-top: 3rem;
     margin-bottom: 3rem;
    
 
+}
+}
+a:hover {
+    color: red;
+    cursor: pointer;
 }
 
 .intro-dig {
@@ -994,7 +1337,9 @@ span  {
     margin-right: auto;
     margin-top: 50px;
     text-transform: uppercase;
-    font-size: 20px;font-weight: bold;}
+    font-size: 20px;font-weight: bold;
+    align-self: center;
+}
 
 
 
@@ -1002,9 +1347,7 @@ span  {
     display: flex;
     flex-basis: 100%;  
     width: 100%;
-    align-content: center;
-    margin-left: auto;
-    margin-right: auto;
+    justify-content: center;
     margin-top: 50px;
    
     
@@ -1028,7 +1371,7 @@ span  {
 }
 
 .interspazio {
-    margin-right: 40px;
+    margin-right: 30px;
     border-bottom: 1px solid rgb(218, 218, 218);
     border-left: 1px solid rgb(218, 218, 218);
     border-right: 1px solid rgb(218, 218, 218);
@@ -1058,11 +1401,7 @@ span  {
     padding-left: 0.375rem;
     color: black;}
 
-.digital-img {
-    width: 260px;
-    height: 146px;
 
-} 
 .sconto {
     margin-top: 30px;
     margin-bottom: 10px;
@@ -1075,4 +1414,160 @@ span  {
 
 }
 
+.svg-digital {
+    margin-left: 250px;
+    
+}
+}
 /*Fine sezione Digital new releases-- Autore: Elio Castellini  */
+
+
+
+/*Sezione Digital Best Sellers-- Autore: Lorenzo Curreli  */
+
+div#digitaltitle, div#digit_section{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1114px;
+}
+
+div#digit_section
+{
+    display: flex;
+    align-items: flex-end;
+}
+div#digitaltitle h1{
+    font-weight: bold;
+    text-align: left;
+    padding-left: 0px;
+    font-size: 28px;
+    width:28%;
+    margin-right: 0px;
+    padding-right: 0px;
+    float: left;
+    border-right-style: solid;
+    border-right-color: rgb(196, 193, 193);
+    border-right-width: 1px;
+}
+div#digitaltitle p{
+    padding-left: 0px;
+    width: 72%;
+    margin-right: 0px;
+    padding-right: 0px;
+    margin-left: 0px;
+    text-align: left;
+    padding-top: 30px;
+}
+div#digitaltitle p a{
+    color: red;
+    font-weight: bold;
+    padding-left: 14px;
+}
+div#digital p a:hover{
+    color:rgb(155, 12, 12);
+}
+
+.item_digit
+{
+    margin-top: 30px;
+    padding-top: 0;
+    margin-left: 0;
+    padding-left: 0;
+    margin-right: 30px;
+    padding-right: 0;
+    width: 260px;
+    text-align: left;
+    border-style: solid;
+    border-color: rgb(189, 188, 188);
+    border-width: 1px;
+    border-top-style: none;
+    
+   }
+
+   
+
+div.item_digit h3{
+    background-color: red;
+    margin-left: 0;
+    padding-left: 0;
+    margin-top:0;
+    color: white;
+    margin-bottom: 0;
+    padding-bottom: 3px;
+    padding-top: 3px;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    font-size: 12px;
+    text-align: center;
+}
+
+div.item_digit:nth-of-type(2) h3{
+    background-color: blue;
+}
+div.item_digit:nth-of-type(3) h3, div.item_digit:nth-of-type(4) h3{
+    background-color: white;
+    height: 18px;
+}
+div.item_digit:nth-of-type(3), div.item_digit:nth-of-type(4)
+{
+    border-style: none;
+}
+div.item_digit:nth-of-type(3) div, div.item_digit:nth-of-type(4) div
+{
+    border-style: solid;
+    border-color: rgb(189, 188, 188);
+    border-width: 1px;
+    border-top-style: none;
+}
+
+div.item_digit p{
+    margin-left: 10px;
+    padding-left: 0px;
+    text-align: left;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+
+div.item_digit p:first-of-type
+{
+    margin-bottom: 0;
+    margin-top: 0;
+    padding-bottom: 60px;
+    padding-top: 20px;
+}
+
+div.item_digit:first-of-type p:first-of-type, div.item_digit:nth-of-type(4) p:first-of-type
+{
+    padding-bottom: 60px;
+}
+
+div.item_digit p:nth-of-type(3)
+{
+    
+    margin-top: 20px;
+    font-weight: normal;
+    margin-left: 10px;
+    padding-left: 10px;
+    border-left-width: 2px;
+    border-left-style: solid;
+    border-left-color: red;
+    margin-bottom: 10px;
+}
+
+div.item_digit a{
+    text-decoration: none;
+    color: black;
+}
+
+div.item_digit a:hover{
+    cursor: pointer;    
+    color: red;
+}
+
+div.item_digit p:first-of-type:hover
+{
+    padding-top: 40px;
+}
+/*Fine sezione Digital Best Sellers-- Autore: Lorenzo Curreli  */
