@@ -1114,8 +1114,7 @@ h1
 
 /* Sezione CSS per Featured -- Autore: Elio Castellini */
 
-@media all and (max-width: 300px)  ,
-(min-width: 900px) {
+
 .section{
     display: flex;
     width:100%;
