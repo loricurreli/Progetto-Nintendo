@@ -1275,6 +1275,11 @@ a {
     max-width: fit-content;
 }
 
+
+.big-article:hover,
+.small-article:hover {
+    cursor: pointer;
+}
 .big-article:hover img, 
 .small-article:hover img {
     opacity: .7;
