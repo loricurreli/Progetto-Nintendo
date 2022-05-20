@@ -22,6 +22,17 @@ body {
     
 }
 
+
+.fixed {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 999;
+    background-color: white;
+    border-bottom: 1px solid lightgrey;
+}
+
+
 .align-items-center {
     align-items:center;
 }
@@ -120,7 +131,7 @@ li {
 }
 
 .aside-login{
-    padding: 1em;
+    margin-left: 1em;
     color: black;
     cursor: auto;
 }
@@ -334,6 +345,7 @@ svg:hover {
 
 .nintendo-sport {
     width: 100%;
+    margin-top: 100px;
 }
 
 nav {
@@ -402,6 +414,7 @@ nav a {
 .cursore {
     cursor: pointer
 }
+
 
 @media  screen and (max-width: 768px) {
     .container-1 {
