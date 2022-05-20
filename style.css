@@ -1484,6 +1484,11 @@ a {
     max-width: fit-content;
 }
 
+
+.big-article:hover,
+.small-article:hover {
+    cursor: pointer;
+}
 .big-article:hover img, 
 .small-article:hover img {
     opacity: .7;
@@ -1526,7 +1531,7 @@ a {
 
 /*Sezione Digital new releases-- Autore: Elio Castellini */
 
-@media all and (max-width: 300px)  ,
+@media all and (max-width: 300px),
 (min-width: 900px) {
 .distacco {
     margin-top: 3rem;
