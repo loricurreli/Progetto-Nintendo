@@ -398,6 +398,7 @@ nav a {
 .container-esrb {
     position: absolute;
     right: 30px;
+    z-index: -1;
 }
 
 .esrb-logo {
@@ -415,24 +416,34 @@ nav a {
     cursor: pointer
 }
 
+.logo-nintendo-media-queries {
+    display: none;
+}
+
+.logo-nintendo-media-queries .svg-nintendo {
+    color: white;
+    align-items: center;
+    margin-top: 1em;
+    margin-left: 1em;
+}
+
 
 @media  screen and (max-width: 768px) {
     .container-1 {
-        display: flex;
-        flex-direction: column;
-        margin-left: auto;
-        margin-right: auto;
+        display: none;
     }
     
     .container-nav {
-        display: flex;
-        flex-direction: column;
-        margin-left: auto;
-        margin-right: auto;
+        display: none;
     }
 
-    .logo-nintendo {
-        width: 133px;
+    .logo-nintendo-media-queries {
+        display: flex;
+        width: 100%;
+        height: 50px;
+        position: fixed;
+        z-index: 1000;
+        background-color: rgb(230, 0, 18)
     }
 
     .sect-buynow {
@@ -449,6 +460,14 @@ nav a {
         justify-content: center;
         text-decoration: none;
 
+    }
+
+    .nintendo-sport {
+        margin-top: 50px;
+    }
+
+    .esrb-logo {
+        margin-left: 0;
     }
 
     .Buynow {
@@ -475,6 +494,7 @@ nav a {
 
     .container-esrb {
         margin-top: 1rem;
+        z-index: -1;
     }
 
     .scritta-mild-violence {
