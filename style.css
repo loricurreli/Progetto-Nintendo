@@ -224,7 +224,7 @@ button:hover {
     color: rgb(155, 12, 12);
 }
 
-h2 {
+.h2-login {
     font-size: 18px;
     color: rgb(230, 0, 18);
     text-align: center;
