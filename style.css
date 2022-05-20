@@ -1318,7 +1318,7 @@ a {
 
 /*Sezione Digital new releases-- Autore: Elio Castellini */
 
-@media all and (max-width: 300px)  ,
+@media all and (max-width: 300px),
 (min-width: 900px) {
 .distacco {
     margin-top: 3rem;
