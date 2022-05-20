@@ -100,7 +100,7 @@ ul li {
     padding: 1em;
 }
 
-aside {
+.aside-section-login {
     display: none;
     width: 25vw;
     background-color: rgb(239, 239, 239);
@@ -110,7 +110,7 @@ li {
     list-style: none;
 }
 
-.container-1 .last-items-list:hover  aside {
+.container-1 .last-items-list:hover  .aside-section-login {
     display: block;
     position: absolute;
     right: 0;
