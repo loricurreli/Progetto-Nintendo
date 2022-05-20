@@ -998,7 +998,7 @@ span  {
 
 }
 
-a:hover {
+.passaggio:hover {
     color: red;
     cursor: pointer;
 }
