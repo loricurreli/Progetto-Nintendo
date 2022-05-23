@@ -379,6 +379,8 @@ nav a {
     border-style: none;
     font-weight: 700;
     border-radius: 6%;
+    transition: 0.3s;
+    transition-timing-function: cubic-bezier(0.6, 1.0, 0.8);
 }
 
 .Buynow:hover {
@@ -859,8 +861,10 @@ a input{
     font-size: 18px;
     padding-top: 7px;
     padding-bottom: 7px;
-    border-radius: 4px;
+    border-radius: 7px;
     margin-left: 5%;    
+    transition: 0.3s;
+    transition-timing-function: cubic-bezier(0.6, 1.0, 0.8);
 }
 
 a input:hover{   
