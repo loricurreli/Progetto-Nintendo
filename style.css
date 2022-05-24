@@ -1350,16 +1350,41 @@ h1
     height: auto;
 }
 
-.hvr-bounce-in {
+#shop-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.shop-btn-container {
+    margin-top: 60px;
+}
+
+#shop-btn {
+    
+    background-color: red;
     display: inline-block;
     vertical-align: middle;
+    width: 170px;
+    height: 35px;
     transition: 0.3s;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    text-align: center;
+    padding-top: 5px;
     transition-timing-function: cubic-bezier(0.6, 1.0, 0.8);
   }
-  .hvr-bounce-in:hover, .hvr-bounce-in:focus, .hvr-bounce-in:active {
-    width: 200px;
-    height: 50px;
+
+#shop-btn:hover {
+    background-color: darkred;
+    width: 180px;
+    height: 45px;
+    padding-top: 10px;
   }
+
+.shop-title {
+    margin-top: 62px;
+}
 
 /*Fine Sezione di CSS per GAMING SYSTEMS -- Autore: Vincenzo Buonomo */
 
