@@ -1516,7 +1516,7 @@ a {
     grid-template-areas: 
         ". sml-art1 sml-art2 sml-art3 sml-art4 .";
     justify-items: space-around;
-    gap: 2rem;
+    gap: 3rem;
 }
 .sml-art1 {
     grid-area: sml-art1;
@@ -1537,7 +1537,6 @@ a {
     flex-direction: column;
     row-gap: 15px;
     margin-top: 50px;
-
 }
 .small-article img {
     width: 262px;
