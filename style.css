@@ -1580,51 +1580,58 @@ a {
 
 /* Fine Sezione CSS per News -- Autore: Laurent Gagné */
 
-/*Sezione Digital Best Sellers-- Autore: Lorenzo Curreli  */
+/*Sezione Digital -- Autore: Lorenzo Curreli  */
 
-div#digitaltitle, div#digit_section{
-    text-align: center;
+
+div.digit_section
+{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    width: 1114px;
     margin-left: auto;
     margin-right: auto;
-    width: 1114px;
+    justify-items: baseline;
+    
+}
+.digit_section h1{
+    grid-template: 1 1 1 1;
+    border-right: 3px solid red;
+    padding-right: 15px;
 }
 
-div#digit_section
-{
-    display: flex;
-    align-items: flex-end;
-}
-div#digitaltitle h1{
-    font-weight: bold;
-    text-align: left;
-    padding-left: 0px;
-    font-size: 28px;
-    width:28%;
-    margin-right: 0px;
-    padding-right: 0px;
-    float: left;
-    border-right-style: solid;
-    border-right-color: rgb(196, 193, 193);
-    border-right-width: 1px;
-}
-div#digitaltitle p{
-    padding-left: 0px;
-    width: 72%;
-    margin-right: 0px;
-    padding-right: 0px;
-    margin-left: 0px;
-    text-align: left;
-    padding-top: 30px;
-}
-div#digitaltitle p a{
+.digit_section p a{
+    grid-template: 1 2 1 2;
     color: red;
+    font-size: 20px;
     font-weight: bold;
-    padding-left: 14px;
-}
-div#digital p a:hover{
-    color:rgb(155, 12, 12);
+    
 }
 
+#full_list {
+    
+    padding-top: 22px;
+    
+}
+div h1#noborder{
+    border-style: none;
+}
+
+.item_digit:first-of-type{
+    grid-row: 2;
+    grid-column: 1;
+}
+.item_digit:nth-of-type(2){
+    grid-row: 2;
+    grid-column: 2;
+}
+.item_digit:nth-of-type(3){
+    grid-row: 2;
+    grid-column: 3;
+}
+.item_digit:nth-of-type(4){
+    grid-row: 2;
+    grid-column: 4;
+}
 .item_digit
 {
     margin-top: 30px;
@@ -1730,4 +1737,4 @@ div.item_digit p:first-of-type:hover
 .heart {
     margin-left: 80px;
 }
-/*Fine sezione Digital Best Sellers-- Autore: Lorenzo Curreli  */
+/*Fine sezione Digital -- Autore: Lorenzo Curreli  */
