@@ -1476,8 +1476,8 @@ a {
             ". big-article ."
             ". small-article ."
             ". button .";
-    row-gap: 20px;
-
+    row-gap: 40px;
+    
 }
 
 .section-title {
@@ -1489,7 +1489,7 @@ a {
     grid-template-columns: 50px 1fr 1fr 50px;
     grid-template-areas: " . bg-art1 bg-art2 . ";
     justify-items: center;
-    gap: 2rem;
+    gap: 4rem;
 
 }
 .bg-art1 {
