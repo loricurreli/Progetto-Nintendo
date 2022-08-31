@@ -2,12 +2,9 @@
 
 Progetto Nintendo TEAM 4
 
-Branch nintendo: questo branch contiene lo stato attuale della homepage, compreso il css e la cartella delle immagini.
+Obiettivo: Realizzazione della homepage del sito nintendo.com
 
-Ogni volta che un collaboratore effettua la pull request va ad aggiungere su questo branch le modifiche presenti sul proprio branch sul quale ha lavorato.
-
-Ogni volta che un collaboratore scarica la repository, trova su questo branch lo stato attuale della homepage.
-
+Il team ha come obbiettivo quello di riprodurre la homepage del sito della Nintendo utilizzando le conoscenze base di HTML e CSS apprese durante il primo mese di corso presso Develhope. Si tratta quindi di un progetto semplice realizzato durante la primissima fase dell'apprendimento.
 Collaboratori
 -Elio Castellini
 -Marco Spicuzza
@@ -16,5 +13,5 @@ Collaboratori
 -Massimo Caser
 -Lorenzo Curreli
 
-Obiettivo: Realizzazione della homepage del sito nintendo.com
+
 
